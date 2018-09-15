@@ -1,0 +1,25 @@
+sudo: false
+env:
+  global:
+    - CXX_FLAGS="-Wall -pedantic -Werror -Wno-variadic-macros -Wno-long-long -Wno-shadow"
+language:
+  - cpp
+compiler:
+  - g++
+addons:
+  apt:
+    update: true
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - cmake
+      - cmake-data
+before_install:
+  - export CXX_FLAGS=${CXX_FLAGS}" "${ENV_CXX_FLAGS}
+script:
+  - mkdir build
+  - cd build
+  - cmake .. -DXWIN_OS=NOOP
+  - cmake --build .
+notifications:
+  email: false
