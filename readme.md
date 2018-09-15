@@ -1,4 +1,4 @@
-![Cover Image](assets/images/cover.jpg)
+<!--![Cover Image](assets/images/cover.jpg)-->
 
 # GPU Zen 2 | Ray Casting Techniques for Baked Texture Generation
 
@@ -6,6 +6,8 @@
 [![cmake-img]][cmake-url]
 [![License][license-img]][license-url]
 [![Travis Tests][travis-img]][travis-url]
+
+> **Note**: 🚧 This repository is a work in progress as GPU Zen 2 gets closer to release, you can follow its progress in the `develop` branch.
 
 When building real-time applications artists must conform to a performance budget according to their project’s system requirements. Baking allows for the caching of data from geometry with much higher polygon counts to image textures that can be used as inputs in shaders.
 
@@ -59,11 +61,9 @@ This example was written to work on:
 
 - 🍎 **MacOS** (Tested on *MacOS 10.13 High Sierra* | iMac 2017 / 3.4GHz Intel i5 / Radeon Pro 560 / 16GB Ram)
 
-- 🐧 **Linux** (Tested on *Ubuntu 18.04 Bionic Beaver* | 3.0Ghz Intel Celleron / RX 570 / 4GB Ram)
-
 ## Usage
 
-![UI highlights screenshot](assets/images/ui-highlights.png)
+<!--![UI highlights screenshot](assets/images/ui-highlights.png)-->
 
 When the program starts a UI element will appear to the right that shows all the controls for the baker system.
 
@@ -79,7 +79,7 @@ Click the `Bake` button to bake those textures and have them written to `<yourpa
 
 ### Supported Maps
 
-![Baker Outputs](assets/images/baked-outputs.png)
+<!--![Baker Outputs](assets/images/baked-outputs.png)-->
 
 #### Surface
 
@@ -150,7 +150,7 @@ The core logic of the Baker can be found in the `Baker` class located in `/src/E
 
 - [stb](https://github.com/nothings/stb) - A number of public domain libraries, including a PNG writer / reader that we're using in this example.
 
-- [IMGUI](https://github.com/ocornut/imgui) - a bloat-free graphical user interface library for C++.
+- [dear imgui](https://github.com/ocornut/imgui) - a bloat-free graphical user interface library for C++.
 
 - [Open Asset Import Library](https://github.com/assimp/assimp) - Loads 40+ 3D file formats into one unified and clean data structure.
 

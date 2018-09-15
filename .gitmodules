@@ -1,0 +1,21 @@
+[submodule "external/vectormath"]
+	path = external/vectormath
+	url = https://github.com/glampert/vectormath.git
+[submodule "external/crosswindow"]
+	path = external/crosswindow
+	url = https://github.com/alaingalvan/crosswindow.git
+[submodule "external/crosswindow-graphics"]
+	path = external/crosswindow-graphics
+	url = https://github.com/alaingalvan/crosswindow-graphics.git
+[submodule "external/opengl-registry"]
+	path = external/opengl-registry
+	url = https://github.com/KhronosGroup/opengl-registry.git
+[submodule "external/imgui"]
+	path = external/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "external/assimp"]
+	path = external/assimp
+	url = https://github.com/assimp/assimp.git
+[submodule "external/stb"]
+	path = external/stb
+	url = https://github.com/nothings/stb.git
