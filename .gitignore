@@ -17,6 +17,11 @@ xcode/
 androidstudio/
 make/
 webassembly/
+*.exe
+*.app
+*.exp
+*.ilk
+*.pdb
 
 ## Visual Studio
 # User-specific files
